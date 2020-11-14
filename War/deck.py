@@ -4,8 +4,6 @@ Deck that will store all of our cards
 import card
 import random
 
-random_names = ('Olivia', 'Zenzard', 'Kyle', 'Lyhoman', 'Star', 'Shrimp', 'Shraft', 'Gucci')
-
 class Deck():
 
     def __init__(self):
@@ -14,7 +12,7 @@ class Deck():
 
         for card_clan in card.clans:
             for card_rank in card.ranks:
-                created_card = card.Card(random.choice(random_names), card_clan, card_rank)
+                created_card = card.Card(random.choice(card.random_names), card_clan, card_rank)
 
                 self.all_cards.append(created_card)
 

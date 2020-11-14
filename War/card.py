@@ -28,6 +28,10 @@ clans = ('Dark Ages', 'Edo Shogunate', 'Kahuna Papyrus')
 
 ranks = ('Dweller', 'Farmer', 'Engineer', 'Miner', 'Blacksmith', 'Alchemist', 'Fighter', 'Knight', 'Priest', 'Lord', 'King', 'Queen', 'Creator')
 
+#names
+
+random_names = ('Olivia', 'Zenzard', 'Kyle', 'Lyhoman', 'Star', 'Shrimp', 'Shraft', 'Gucci')
+
 class Card():
 
     def __init__(self, card_name, card_clan, card_rank):
