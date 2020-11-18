@@ -16,11 +16,12 @@ class Deck():
 
                 self.all_cards.append(created_card)
 
+    def shuffle(self):
+        random.shuffle(self.all_cards)
+
+    def deal_one(self):
+        return self.all_cards.pop()
+
     def show_all_cards(self):
         for card in self.all_cards:
             print(f'{card.card_name} | {card.card_clan} | {card.card_rank}')
-
-new_deck = Deck()
-
-new_deck.show_all_cards()
-

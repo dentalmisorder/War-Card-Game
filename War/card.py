@@ -22,7 +22,7 @@ values = {
 
 #clans
 
-clans = ('Dark Ages', 'Edo Shogunate', 'Kahuna Papyrus')
+clans = ('Dark Ages', 'Edo Shogunate', 'Kahuna Papyrus', 'Hide n seek')
 
 #ranks
 
@@ -30,7 +30,7 @@ ranks = ('Dweller', 'Farmer', 'Engineer', 'Miner', 'Blacksmith', 'Alchemist', 'F
 
 #names
 
-random_names = ('Olivia', 'Zenzard', 'Kyle', 'Lyhoman', 'Star', 'Shrimp', 'Shraft', 'Gucci')
+random_names = ('Shantae', 'Kirigaya', 'Albedo', 'Lyhoman', 'Star', 'Shrimp', 'Shfart', 'Joji', 'Gura', 'Ame', 'Ken', 'Kuro', 'Shiro', 'Shinji', 'Paimon', 'Tharja', 'Darling', 'Arararagi', 'Rickrolled', 'Toradora', 'Big tiddie gf', 'Smol tiddie goth gf', 'Ricardo', 'Spongebob', 'Bo Burnham', 'Monika', 'Padowu Padowu', 'Scooby-Doo', 'AppleJack', 'Based', 'Bahh Tee', 'Sportacus', 'Asuka')
 
 class Card():
 
